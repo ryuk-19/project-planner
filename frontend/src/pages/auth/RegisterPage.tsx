@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { LayoutDashboard, Mail, Lock, User, UserPlus } from 'lucide-react';
+import { LayoutDashboard, UserPlus } from 'lucide-react';
 import { useAuthStore } from '@/stores/authStore';
 import { Button, Input } from '@/components/common';
 import { authService } from '@/services/authService';

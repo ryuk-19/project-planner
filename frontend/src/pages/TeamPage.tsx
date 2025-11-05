@@ -37,7 +37,6 @@ const TeamPage = () => {
   const { 
     data: projects, 
     isLoading: loadingProjects,
-    error: projectsError
   } = useQuery({
     queryKey: ['projects', teamId],
     queryFn: () => projectService.getProjects(teamId!),
